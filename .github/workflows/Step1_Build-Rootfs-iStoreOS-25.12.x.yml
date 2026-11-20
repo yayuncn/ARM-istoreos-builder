@@ -51,7 +51,7 @@ jobs:
       contents: write
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v7
 
     - name: ⚙️ 设置可执行权限
